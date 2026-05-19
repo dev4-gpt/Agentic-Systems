@@ -1,6 +1,6 @@
 # Agentic Systems
 
-Welcome to the Agentic Systems repository! This project contains learning materials, notebooks, and code related to AI agents, multi-agent collaboration, Retrieval-Augmented Generation (RAG), structured outputs, and agent workflows.
+This project contains learning materials, notebooks, and code related to AI agents, multi-agent collaboration, Retrieval-Augmented Generation (RAG), structured outputs, and agent workflows.
 
 ## Directory Structure & Materials
 
