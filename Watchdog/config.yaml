@@ -1,0 +1,26 @@
+# Gateway Watchdog Configuration
+
+# Frequency of status and log checks (in seconds)
+check_interval_seconds: 30
+
+# Path to the Hermes logs directory
+# ~ will be expanded to the user's home directory
+hermes_logs_dir: "~/.hermes/logs"
+
+# Output directory for saving generated markdown alerts
+alerts_dir: "./alerts"
+
+# Ollama LLM Configuration for AI Diagnostics Agent
+ollama:
+  base_url: "http://localhost:11434"
+  model: "qwen3.5:4b"
+
+# Email dispatch configuration (optional - for HITL notification)
+email:
+  smtp_enabled: false
+  smtp_host: "smtp.gmail.com"
+  smtp_port: 587
+  smtp_user: ""
+  smtp_password: "" # Recommendation: Use App Passwords for Gmail
+  from_address: "hermes-watchdog@example.com"
+  to_address: "aryamandev@example.com"
